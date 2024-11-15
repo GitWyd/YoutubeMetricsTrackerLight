@@ -41,7 +41,7 @@ python track_video.py wDchsz8nmbo --interval 1800
 3. Metrics are saved in `<video_id>.csv` in the following format:
 ```csv
 timestamp,title,publishedAt,views,likes,comments
-2024-11-14T12:00:00,Sample Video,2024-11-11T17:30:28,72940,2100,227
+2024-11-14T12:00:00,Sample Video,2020-01-25T08:20:02,554432,1231,987
 ```
 
 ## Debugging
