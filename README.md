@@ -8,19 +8,10 @@ A Python script to track YouTube video metrics such as likes, views, and comment
 - Saves metrics to a CSV file named after the YouTube video ID.
 - Debug-friendly: Saves raw HTML for inspection if parsing fails.
 
-## License
-This project is licensed under the MIT License.
-
 ## Requirements
 The script requires the following Python packages:
 - `requests`
 - `beautifulsoup4`
-
-## Installation
-To install the required packages, run:
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 1. Clone this repository:
@@ -29,7 +20,12 @@ git clone https://github.com/<your-username>/youtube-metrics-tracker.git
 cd youtube-metrics-tracker
 ```
 
-2. Run the script:
+2. To install the required packages, run:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the script:
 ```bash
 python track_video.py <video_id> [--interval <interval_in_seconds>]
 ```
