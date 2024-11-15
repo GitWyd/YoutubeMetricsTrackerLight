@@ -1,4 +1,4 @@
-# YouTube Metrics Tracker
+# YouTube Metrics Tracker *Light*
 
 A Python script to track YouTube video metrics such as likes, views, and comments over time. The script uses web scraping techniques to fetch the data directly from YouTube and saves the results to a CSV file for further analysis.
 
